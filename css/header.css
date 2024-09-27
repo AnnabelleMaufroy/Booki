@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+header>a>img{
+    width: 60px;
+    height: auto;
+    padding: 10px;
+}
+.nav-container{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 0;
+}
+.nav-container>li>a:hover{
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+    padding-top: 6px;
+}
