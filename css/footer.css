@@ -4,13 +4,14 @@ footer{
 }
 .footer-container {
     display: flex;
-    justify-content: space-evenly;
+    margin-left: 20px;
 }
 footer li{
     list-style-type: none;
     padding-left: 0;
 }
 footer ul{
+    width: 450px;
     padding-left: 0;
     display: flex;
     flex-direction: column;
