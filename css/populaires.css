@@ -43,3 +43,9 @@
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+.populaires-cards h3,
+.populaires-cards .card-subtitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
