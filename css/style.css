@@ -265,6 +265,12 @@ a {
         flex-direction: column;
         align-items: center;
     }
+    .activites-cards a{
+        height: 200px;
+    }
+    .activites-cards img{
+        height: 150px;
+    }
     .activites .section-title{
         margin-left: 5%;
     }
