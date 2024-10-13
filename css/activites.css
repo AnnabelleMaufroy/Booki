@@ -35,3 +35,38 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+@media (max-width: 1024px) {
+    .activites{
+        margin-left: 0;
+    }
+    .activites-cards .card-title{
+        font-size: 14px;
+    }
+    .activites-cards a{
+        height: 270px;
+        flex-grow: 0;
+    }
+    .activites-cards img{
+        height: 220px;
+    }
+}
+@media (max-width: 767.98px) {
+    .activites-cards a {
+        width: 100%;
+        max-width: 90%;
+    }
+    
+    .activites-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .activites-cards a{
+        height: 200px;
+    }
+    .activites-cards img{
+        height: 150px;
+    }
+    .activites .section-title{
+        margin-left: 5%;
+    }
+}

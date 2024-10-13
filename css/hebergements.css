@@ -51,3 +51,34 @@
 .hebergements>div>a>h3, .hebergements .section-title{
     margin-left: 5%;
 }
+@media (max-width: 1024px) {
+    .hebergements {
+        width: 100%;
+        gap: 30px;
+    }
+    .hebergements-card .card-title {
+        font-size: 14px;
+    }
+    .hebergements-card .section-title {
+        margin-top: 100px;
+    }
+
+    .hebergements-card .card-subtitle {
+        font-size: 13px;
+    }
+    .hebergements>div>a>h3{
+        padding: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .hebergements-and-populaires .hebergements{
+        background-color: white;
+    }
+    .hebergements{
+        justify-content: space-evenly;
+    }
+    .hebergements-card a{
+        width: 100%;
+        max-width: 90%;
+    }
+}

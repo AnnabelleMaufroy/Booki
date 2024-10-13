@@ -20,3 +20,8 @@ footer ul{
 .title-list{
     font-weight: bold;
 }
+@media (max-width: 767.98px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
