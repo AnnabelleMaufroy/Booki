@@ -45,7 +45,6 @@
     margin-top: 8px;
     margin-bottom: 8px;
     white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
 }
 .hebergements>div>a>h3, .hebergements .section-title{
